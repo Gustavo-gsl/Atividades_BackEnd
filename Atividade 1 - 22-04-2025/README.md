@@ -59,19 +59,19 @@ Vinculados.objects.all()
 ## Etapa 4 - Configurando conexão com o SQLite no DBeaver
 Com o DBeaver aberto, selecionar a opção [Banco de Dados]() e [Nova conexão]()
 
-![alt text](image.png)
+![alt text](imagens/image.png)
 
 Seleciona-se então a opção do SQLite e [Avançar]()
 
-![alt text](image-1.png)
+![alt text](imagens/image-1.png)
 
 Colocar o caminho para o banco de dados do projeto e apertar em [Concluir]()
 
-![alt text](image-2.png)
+![alt text](imagens/image-2.png)
 ## Etapa 5 - Inserindo dados fictícios nas tabelas usando comandos SQL
 Criando um novo script
 
-![alt text](image-3.png)
+![alt text](imagens/image-3.png)
 ```SQL
 INSERT INTO atividade1_app_porteiro (nome, cpf, matricula) VALUES ('Tamara', '98765432100', '202377770001');
 
@@ -84,12 +84,12 @@ WHERE nome = 'Adamastor';
 ## Etapa 6 - Verificar a estrutura e os dados das tabelas no DBeaver
 Tabela [Porteiro]()
 
-![alt text](image-4.png)
+![alt text](imagens/image-4.png)
 
 Tabela [Vinculados]()
 
-![alt text](image-5.png)
+![alt text](imagens/image-5.png)
 
 Tabela [Visitante]()
 
-![alt text](image-6.png)
+![alt text](imagens/image-6.png)
