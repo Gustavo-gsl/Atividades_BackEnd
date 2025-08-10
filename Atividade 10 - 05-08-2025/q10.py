@@ -11,7 +11,7 @@ alberto = Membro("Alberto", 2)
 maria = Membro("Maria", 3)
 
 #Instanciando as classes Livro (Instâncias: maus e jogos_vorazes) e DVD (Instâncias: shrek3)
-maus = Livro("Maus", "Art", 2020)
+maus = Livro("Maus", "Art Spiegelman", 1986)
 jogos_vorazes = Livro("Jogos Vorazes", "Suzanne Collins", 2010)
 shrek3 = DVD("Shrek 3", 93)
 
