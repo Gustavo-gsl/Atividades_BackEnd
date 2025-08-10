@@ -34,7 +34,7 @@ class Biblioteca:
 
             membro.materiais_emprestados.append(material.titulo)
             material.disponivel = False
-            print(f"\n{f"\"{material.titulo}\" foi emprestado por {membro.nome}":^50}\n")
+            print(f"\n{f"\"{material.titulo}\" foi emprestado para {membro.nome}":^50}\n")
 
     def realizar_devolucao(self, material, membro):
 
